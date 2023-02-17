@@ -1,0 +1,27 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "BoilerPlate Typescript Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flimasi/typescript-boilerplate.git"
+  },
+  "keywords": [
+    "BoilerPlate",
+    "Typescript"
+  ],
+  "author": "Felipe Lima Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flimasi/typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/flimasi/typescript-boilerplate#readme",
+  "devDependencies": {
+    "tsc-watch": "^6.0.0",
+    "typescript": "^4.9.5"
+  }
+}
