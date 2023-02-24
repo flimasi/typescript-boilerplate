@@ -1,11 +1,12 @@
 interface Hello {
     name: string
 }
-let me : Hello = {
+const me : Hello = {
     name: 'me'
 }
 
-// @ts-ignore
+console.log(me)
+
 test("1 * 2", () => {
     expect(2).toBe(2);
 });
