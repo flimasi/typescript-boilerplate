@@ -6,7 +6,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const app = (0, express_1.default)();
 app.get('/', (request, response) => {
-    return response.json({ 'message': 'Hello World' });
+    return response.json({ 'ping': 'pong' });
 });
-console.log('Server Started on port 3333');
-app.listen(3333);
+app.listen(3333, () => {
+    console.log('Server Started on port 3333');
+});

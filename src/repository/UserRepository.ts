@@ -1,7 +1,7 @@
 export class UserRepository{
 
     async getRepositorys(){
-
+        return true;
     }
 
 }
